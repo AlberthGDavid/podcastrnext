@@ -43,6 +43,7 @@ export function Player() {
     audioRef.current.currentTime = amount;
     setProgress(amount)
   }
+
   return (
     <div className={styles.playerContainer}>
       <header>
