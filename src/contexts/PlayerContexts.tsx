@@ -56,7 +56,6 @@ export function PlayerContextProvider({ children }: PlayerContextProviderProps) 
       setCurrentEpisodeIndex(currentEpisodeIndex - 1);
     }
   }
-
   return (
     <PlayerContext.Provider
       value={{
